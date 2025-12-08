@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, } from "next/font/google";
+import { Geist, Geist_Mono, Poppins} from "next/font/google";
 import "./globals.css";
 
 
@@ -18,13 +18,18 @@ export const metadata: Metadata = {
   description: "Created By Riead",
 };
 
+export const poppins = Poppins({
+  weight: '400',
+  subsets: ['latin'],
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={poppins.className}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
