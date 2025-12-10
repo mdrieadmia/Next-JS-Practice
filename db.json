@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Fresh China Jumbo Lichi (100 pcs)",
+      "price": 450,
+      "currency": "BDT",
+      "description": "High-quality fresh China jumbo lichi. Sweet, juicy and hand-picked for maximum freshness.",
+      "stock": 120,
+      "category": "Fruits",
+      "image": "https://dokanpat.com.bd/wp-content/uploads/2021/05/china-3-jambo-lichi-100pcs.jpg",
+      "rating": 4.7,
+      "reviews": 56
+    },
+    {
+      "id": "2",
+      "name": "Organic Red Apple (1 kg)",
+      "price": 320,
+      "currency": "BDT",
+      "description": "Fresh organic red apples, perfect for snacking or cooking.",
+      "stock": 80,
+      "category": "Fruits",
+      "image": "https://dokanpat.com.bd/wp-content/uploads/2021/05/china-3-jambo-lichi-100pcs.jpg",
+      "rating": 4.5,
+      "reviews": 34
+    },
+    {
+      "id": "3",
+      "name": "Fresh Banana (1 dozen)",
+      "price": 150,
+      "currency": "BDT",
+      "description": "Sweet and ripe bananas, full of energy and vitamins.",
+      "stock": 200,
+      "category": "Fruits",
+      "image": "https://dokanpat.com.bd/wp-content/uploads/2021/05/china-3-jambo-lichi-100pcs.jpg",
+      "rating": 4.6,
+      "reviews": 48
+    },
+    {
+      "id": "4",
+      "name": "Juicy Mango (5 pcs)",
+      "price": 600,
+      "currency": "BDT",
+      "description": "Delicious juicy mangoes, perfect for summer desserts.",
+      "stock": 50,
+      "category": "Fruits",
+      "image": "https://dokanpat.com.bd/wp-content/uploads/2021/05/china-3-jambo-lichi-100pcs.jpg",
+      "rating": 4.8,
+      "reviews": 72
+    },
+    {
+      "id": "5",
+      "name": "Fresh Orange (1 kg)",
+      "price": 280,
+      "currency": "BDT",
+      "description": "Sweet and tangy oranges, rich in vitamin C.",
+      "stock": 100,
+      "category": "Fruits",
+      "image": "https://dokanpat.com.bd/wp-content/uploads/2021/05/china-3-jambo-lichi-100pcs.jpg",
+      "rating": 4.4,
+      "reviews": 29
+    },
+    {
+      "id": "6",
+      "name": "Seedless Grapes (500 g)",
+      "price": 350,
+      "currency": "BDT",
+      "description": "Fresh seedless grapes, perfect for snacking or juice.",
+      "stock": 75,
+      "category": "Fruits",
+      "image": "https://dokanpat.com.bd/wp-content/uploads/2021/05/china-3-jambo-lichi-100pcs.jpg",
+      "rating": 4.6,
+      "reviews": 40
+    }
+  ]
+}
