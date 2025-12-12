@@ -1,6 +1,9 @@
+import ProductCard from '@/components/ProductCard';
+import { ProductsInfo } from '@/type';
 import React from 'react';
 
 const ProductsPage = async() => {
+
 
     const res = await fetch("http://localhost:5000/products")
     const products = await res.json();
@@ -8,8 +11,13 @@ const ProductsPage = async() => {
     console.log(products);
 
     return (
-        <div>
-            <h1>Products</h1>
+        <div className='grid grid-cols-6 gap-4'>
+            {
+                products.map((product : ProductsInfo)=>{
+
+                    return <ProductCard key={product ?.id} product={product}></ProductCard>
+                })
+            }
         </div>
     );
 };
