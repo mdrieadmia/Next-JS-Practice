@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleRouter = ()=>{
         router.push('/dashboard')
     }
-
+ 
     return (
         <div>
             <div className='w-full bg-slate-800 p-5 flex justify-end'>
