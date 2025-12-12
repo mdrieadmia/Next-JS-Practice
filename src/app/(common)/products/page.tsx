@@ -5,7 +5,11 @@ import React from 'react';
 const ProductsPage = async() => {
 
 
-    const res = await fetch("http://localhost:5000/products")
+    const res = await fetch("http://localhost:5000/products", {
+        next : {
+            revalidate: 30
+        }
+    });
     const products = await res.json();
 
     console.log(products);
