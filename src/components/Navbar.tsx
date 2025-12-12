@@ -12,9 +12,10 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className='w-full bg-amber-100 p-5 flex justify-end'>
-                <Link className='text-black px-5' href="/about"> About </Link>
-                <a className='text-black px-5' href="/setting"> Settings </a>
+            <div className='w-full bg-slate-800 p-5 flex justify-end'>
+                <Link className='text-white px-5' href="/about"> About </Link>
+                <Link className='text-white px-5' href="/products"> Products </Link>
+                <a className='text-white px-5' href="/setting"> Settings </a>
                 <button onClick={handleRouter} className='text-black'>
                     Dashboard
                 </button>
