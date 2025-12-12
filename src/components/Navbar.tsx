@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Link className='text-white px-5' href="/about"> About </Link>
                 <Link className='text-white px-5' href="/products"> Products </Link>
                 <a className='text-white px-5' href="/setting"> Settings </a>
-                <button onClick={handleRouter} className='text-black'>
+                <button onClick={handleRouter} className='text-red'> 
                     Dashboard
                 </button>
             </div>
